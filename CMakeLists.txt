@@ -46,9 +46,9 @@ if (BOX2D_BUILD_UNIT_TESTS)
 endif()
 
 if (BOX2D_BUILD_TESTBED)
-	add_subdirectory(extern/glad)
-	add_subdirectory(extern/glfw)
-	add_subdirectory(extern/imgui)
+#	add_subdirectory(extern/glad)
+#	add_subdirectory(extern/glfw)
+#	add_subdirectory(extern/imgui)
 	add_subdirectory(extern/sajson)
 	add_subdirectory(testbed)
 
